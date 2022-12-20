@@ -1,0 +1,546 @@
+@font-face {
+    font-family: Iran-sans;
+    src: url(Files/Fonts/woff2/IRANSansX-Regular.woff2);
+}
+@font-face {
+    font-family: Iran-sans-BOLD;
+    src: url(Files/Fonts/woff2/IRANSansX-Bold.woff2);
+}
+body {
+    background-color: rgb(233, 232, 232);
+}
+/**** header ****/
+header {
+    display: flex;
+    font-family: Iran-sans;
+    height: 6rem !important;
+    justify-content: space-around;
+    flex-wrap: nowrap;  
+}
+#logo {
+    align-self: flex-start !important;
+    margin-top: -1rem;
+    margin-left: -10rem !important;
+}
+#Htexts {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 1rem;
+    width: 40%;
+    font-size: x-large !important;
+    margin-left: -8rem;
+    
+}
+#Himages {
+    display: flex;
+    margin-top: 1.5rem;
+    justify-content: space-evenly;
+    width: 8%;
+    margin-right: -10rem;
+}
+.HP {
+    transition: 200ms;
+}
+.HP:hover {
+    opacity: 50%;
+}
+.HM {
+    transition: 200ms;
+}
+.HM:hover {
+    opacity: 50%;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+/**** main ****/
+#H1B {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    height: 35rem;
+}
+h1 {
+    font-family: Iran-sans;
+    font-size: 6.5rem;
+    text-align: center;
+}
+#LHRB {
+    margin-top: 8rem;
+    width: 30%;
+}
+#Ll {
+    height: 14rem;
+    width: 55rem;
+}
+#Lr {
+    height: 14rem;
+    width: 55rem; 
+    margin-left: -7rem;
+    margin-bottom: 2rem;
+}
+#RHRB {
+    margin-top: 8rem;
+    width: 30%;
+}
+button {
+    transition: 200ms;
+    font-family: Iran-sans;
+    color: white;
+    border-radius: 30rem;
+    border: 0;
+    font-size: 2rem;
+    padding: 0.5rem 4rem 0.5rem 4rem;
+    border: solid 0.3rem;
+}
+.bl:hover {
+    border: solid rgb(146, 146, 146) 0.3rem;
+    transform: rotate(2deg);
+    box-shadow: -0.4rem 0.4rem rgba(0, 0, 0, 0.575);
+}
+.br:hover {
+    border: solid rgb(146, 146, 146) 0.3rem;
+    transform: rotate(-2deg);
+    box-shadow: 0.4rem 0.4rem rgba(0, 0, 0, 0.575);
+}
+#secure {
+    margin-left: 30rem;
+    background-color: rgb(104, 180, 168);
+}
+#trusted {
+    margin-left: 37rem;
+    margin-top: -1.5rem;
+    background-color: rgb(26, 19, 68);
+}
+#saving {
+    margin-left: -45rem;
+    background-color: rgb(81, 38, 121);
+}
+#private {
+    margin-top: -1rem;
+    margin-right: 25rem;
+    margin-left: -5rem;
+    background-color: rgb(226, 95, 43);
+}
+#CM {
+    display: flex;
+    justify-content: space-evenly;
+    background-image: url(files/Project-Images/Patterns/pattern-1.webp);
+}
+#CC {
+    display: flex;
+    flex-direction: column;
+}
+#cards {
+    height: 50rem;
+    margin-top: -4rem;
+    transition: 200ms;
+}
+#cards:hover {
+    transform: rotate(-1deg);
+}
+/* F1 */
+#F1 {
+    background-color: black;
+    height: 20rem;
+    width: 100%;
+    border-radius: 1rem;
+    display: flex;
+    justify-content: space-around;
+}
+.ContainerF {
+    border-right: solid white 0.1rem;
+    margin-top: 5rem;
+    display: flex;justify-content: space-evenly;
+    flex-direction: column;
+    margin-bottom: 5rem;
+    align-content: flex-start;
+}
+.TI {
+    display: flex;
+}
+.Pf1 {
+    font-family: Iran-sans;
+    color: white;
+    direction: rtl;
+    margin-right: 6rem;
+}
+#c1 {
+    width: 30%;
+}
+#C2 {
+    width: 30%;
+}
+#C3  {
+    width: 30%;
+}
+h2 {
+    float: right;
+    font-family: Iran-sans;
+    color: white;
+    margin-top: 2rem;
+    margin-left: 2rem;
+}
+/* scroll */
+#C10 {
+    margin-top: 10rem;
+    display: flex;
+    direction: rtl;
+    justify-content: space-around;
+}
+#textform {
+    margin-top: 5rem;
+}
+#T-F {
+    font-family: Iran-sans-BOLD;
+    font-size: 3rem;
+    direction: rtl;
+}
+#P-F {
+    font-family: Iran-sans;
+    direction: rtl;
+    font-size: x-large;
+}
+
+#budget {
+    background-color: rgb(247, 247, 247);
+    width: 40rem;
+    height: 45rem;
+    border-radius: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    box-shadow: -0.3rem 0.3rem rgba(75, 75, 75, 0.808);
+}
+h3 {
+    font-family: Iran-sans;
+    font-size: 3rem;
+    margin-right: 3rem;
+}
+#panelT1 {
+    background-color: rgb(0, 0, 0);
+    border-radius: 2rem;
+    font-family: Iran-sans;
+    font-size: 1.5rem;
+    color: rgb(255, 255, 255);
+    width: 35rem;
+    height: 8rem;
+    margin-right: -8rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-bottom: -4rem;
+    box-shadow: -0.6rem 0.1rem rgba(0, 0, 0, 0.507);
+}
+#pt1 {
+    margin-right: 4rem;
+    margin-top: -1rem;
+}
+#panelB1 {
+    background-color: rgb(255, 255, 255);
+    width: 35rem;
+    border-bottom-left-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+    height: 15rem;  
+    margin-right: -8rem;
+    margin-bottom: 0rem;
+    box-shadow: -0.6rem 1rem rgba(0, 0, 0, 0.507);
+}
+#pbt1 {
+    direction: ltr;
+    font-family:Iran-sans;
+    font-size: 4rem;
+    color: black;
+    margin-left: 2rem;
+}
+#panelT2 {
+    background-color: rgb(0, 0, 0);
+    border-radius: 2rem;
+    font-family: Iran-sans;
+    font-size: 1.5rem;
+    color: rgb(255, 255, 255);
+    width: 35rem;
+    height: 8rem;
+    margin-right: 10rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-bottom: -4rem;
+    box-shadow: -0.6rem 0.1rem rgba(0, 0, 0, 0.507);
+}
+#pt2 {
+    margin-right: 4rem;
+    margin-top: -1rem;
+}
+#panelB2 {
+    background-color: rgb(255, 255, 255);
+    width: 35rem;
+    border-bottom-left-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+    height: 15rem;  
+    margin-right: 10rem;
+    margin-bottom: -1rem;
+    box-shadow: -0.6rem 1rem rgba(0, 0, 0, 0.507);
+}
+#pbt2 {
+    direction: ltr;
+    font-family:Iran-sans;
+    font-size: 4rem;
+    color: black;
+    margin-left: 2rem;
+}
+#C11 {
+    margin-top: 14rem;
+    direction: rtl;
+    display: flex;
+    justify-content: space-around;
+}
+#exchange {
+
+    background-color: rgb(247, 247, 247);
+    width: 40rem;
+    height: 45rem;
+    border-radius: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    box-shadow: 0.3rem 0.3rem rgba(75, 75, 75, 0.808);
+}
+#Card1 {
+    display: flex   ;
+    background-color: rgb(243, 243, 243);
+    width: 35rem;
+    border-radius: 2rem;
+    height: 15rem;
+    margin-right: -4rem;
+    margin-top: -5rem;
+    box-shadow: 0.5rem 2rem rgba(0, 0, 0, 0.466);
+
+}
+#C1-1 {
+    font-family: Iran-sans;
+    font-size: xx-large;
+    margin-top: 1.5rem;
+    margin-right: 1rem;
+}
+#card1B {
+    background-color: rgb(235, 235, 235);
+    width: 35rem;
+    height: 10rem;
+    border-bottom-left-radius:2rem ;
+    border-bottom-right-radius: 2rem;
+    margin-right: -4rem;
+    margin-top: -12rem;
+    margin-bottom: 2rem;
+}
+#EA1 {
+    margin-top: 2rem;
+    margin-right: 3rem;
+    padding: 1rem;
+    border-radius: 5rem;
+    background-color:rgb(255, 255, 255) ;
+    font-size: 1.5rem;
+    border: none;
+}
+#Card2 {
+    display: flex   ;
+    background-color: rgb(243, 243, 243);
+    width: 35rem;
+    border-radius: 2rem;
+    height: 15rem;
+    margin-right: 8rem;
+    margin-bottom: 35rem;
+    box-shadow: 0.5rem 2rem rgba(0, 0, 0, 0.466);
+
+}
+#C1-2 {
+    font-family: Iran-sans;
+    font-size: xx-large;
+    margin-top: 1.5rem;
+    margin-right: 1rem;
+}
+#card2B {
+    background-color: rgb(235, 235, 235);
+    width: 35rem;
+    height: 10rem;
+    border-bottom-left-radius:2rem ;
+    border-bottom-right-radius: 2rem;
+    margin-right: 8rem;
+    margin-top: -26rem;
+}
+#EA2 {
+    margin-top: 2rem;
+    margin-right: 3rem;
+    padding: 1rem;
+    border-radius: 5rem;
+    background-color:rgb(255, 255, 255) ;
+    font-size: 1.5rem;
+    border: none;
+}
+#Arr {
+    transition: 0.5s;
+    margin-top: -55rem;
+    margin-bottom: 26rem
+}
+#Arr:hover {
+    transform: rotate(360deg);
+}
+/* C12 */
+#C12 {
+    display: flex;
+    flex-direction: row;
+    font-family: Iran-sans;
+    margin-top: 8rem;
+    direction: rtl;
+    justify-content: space-around;
+
+}
+#c12-1 {
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: column;
+}
+#C12P2 {
+    font-size: 2rem;
+    margin-top: -2rem;
+    margin-right: 2.5rem;
+}
+#C12P {
+    font-family: Iran-sans-BOLD;
+    font-size: 3rem;
+    margin-right: 3rem;
+    
+}
+#C12C {
+    display: flex;
+    justify-content: space-evenly;
+}
+#C12C1 {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+#C12C2 {
+    width: 45%;
+    border-radius: 2rem;
+    height: 15rem;
+    background-color: rgb(255, 255, 255);
+}
+#Btn1 {
+    background-color: black;
+    border-radius: 2rem;
+    height: 7rem;
+    width: 30rem;
+    margin-bottom: 1rem;
+}
+#Btn1:hover {
+    background-color: rgb(255, 255, 255);
+    color: black;
+    border: solid black;
+    transform: rotate(1deg);
+}
+#Btn2 {
+    background-image: linear-gradient(to bottom right, rgb(173, 35, 0), rgb(141, 49, 145),rgb(124, 124, 255));
+    border-radius: 2rem;
+    height: 7rem;
+    width: 30rem;
+    margin-bottom: 1rem;
+}
+#Btn2:hover {
+    background-image: none;
+    background-color: rgba(0, 0, 0, 0.336);
+    transform: rotate(-1deg);
+}
+/* C13 */
+#C13 {
+    height: 90rem;
+    background-color: black;
+    margin-top: 15rem;
+    display: flex;
+    flex-direction: column;
+}
+#C13E {
+    margin-left: 15rem;
+    margin-top: 10rem;
+    background-color: rgb(43, 43, 43);
+    width: 80%;
+    height: 50rem;
+    border-radius: 2rem;
+}
+#C13P {
+    font-family: Iran-sans;
+    font-size: 4rem;
+    color: rgb(255, 255, 255);
+    margin-left:35rem;
+    margin-top: 10rem;
+}
+#C13p {
+    font-family: Iran-sans;
+    font-size: xx-large;
+    color: rgb(231, 231, 231);
+    margin-left: 30rem;
+    margin-top: -3rem;
+}
+#Email {
+    padding: 1rem;
+    padding-right: 20rem;
+    font-size: 2rem;
+    border-radius: 1.5rem;
+    margin-left: 38rem;
+    color: rgb(194, 194, 194);
+}
+form {
+    font-family: Iran-sans;
+    color: rgb(255, 255, 255);
+    font-size: larger;
+}
+#TOSB {
+    margin-left: 39rem;
+    margin-top: 4rem;
+    margin-right: 2rem
+}
+#C13F {
+    display: flex;
+    background-image:url(files/Project-Images/Patterns/pattern-1.webp);
+    width: 100%;
+    height: 45rem;
+    justify-content: space-around;
+}
+.C13FP {
+    font-family: Iran-sans;
+    font-size: 3rem;
+    color: rgb(121, 121, 121);
+    margin-left: 9rem;
+    margin-top: -2rem;
+    margin-left: 10rem;
+    margin-top: -3rem;
+}
+.C13FH {
+    font-family: Iran-sans;
+    font-size: 3rem;
+    color: white;
+    margin-left: 9rem;
+    margin-top: -2rem;
+}
+#pn1 {
+    margin-left: 3rem;
+}
+#pn2 {
+    margin-left: 3rem;
+}
+#Empty {
+    width: 15rem;
+}
+#logosection {
+    margin-top: 15rem;
+}
+#col1 {
+    margin-top: 18rem;
+}
+#col2 {
+    margin-top: 18rem;
+}
+#col3 {
+    margin-top: 18rem;
+}
